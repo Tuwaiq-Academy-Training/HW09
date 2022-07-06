@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Geneva;
+    font-size: 20px;
+  
+
+  }
+    
+  .desc{
+    position: relative;
+    text-align: start;
+    color: gray;
+    padding: 10px 381px 22px;
+ 
+  }
+  
+  #right{
+    padding: 0 0 0 350px;
+  }
+
+.coloring{
+    padding: 0 0 0 300px;
+    text-align: start;
+    color:gray;
+  
+}
+.cooking-info{
+    padding: 0 0 0 600px;
+}
+#black{
+    padding: 0 0 0 300px;
+    right: 90px ;
+}
+.toright{
+    width: 550px;
+    color:gray;
+    height: 200px;
+padding: 20px 0px 0 60px;}
