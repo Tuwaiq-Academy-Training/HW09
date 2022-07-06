@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+  #s1-content {
+    width: 100%;
+    max-height: 90vh;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  #top-img {
+    max-height: 100%;
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+  }
+  #text-head {
+    font-size: 100px;
+    font-weight: 100;
+  
+    background: rgb(171, 85, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(171, 85, 0, 1) 0%,
+      rgba(205, 143, 28, 1) 47%,
+      rgba(79, 252, 69, 1) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: whitesmoke;
+    z-index: 2;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #s2 {
+    padding: 0px 300px;
+  
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  #s2-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    margin: 50px;
+  }
+  #s2-2 {
+    justify-content: center;
+    padding: 50px 0px;
+  }
+  #content2 {
+    display: flex;
+    justify-content: center;
+  }
+  .s2-p-head {
+    font-weight: 600;
+    font-size: 2em;
+  }
+  #s2-2 ul {
+    padding-left: 50px;
+  }
+  #s2-2 li {
+    padding-top: 10px;
+  }
+  #cooking-imgs {
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.9);
+  }
