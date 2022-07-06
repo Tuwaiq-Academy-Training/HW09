@@ -1,0 +1,89 @@
+
+
+.contaner-1
+{
+   
+    position: relative;
+    margin: 200px auto;
+    
+}
+
+
+.text-1
+{
+    color:white;
+    font-size: 30px;
+    position: absolute;
+    top:40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+.intro-1
+{
+    text-align: center;
+}
+
+p
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ingredients-1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.direction-d
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bi bi-stopwatch
+{
+    align-items: center;
+    margin-left: 30px;
+}
+
+#cook
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20 10;
+}
+
+.text
+{
+    align-items: center;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin:  20 10;
+
+  }
+
+  .centered
+  {
+      text-align: center;
+  }
+
+  ol
+   {
+    list-style-type: "- ";
+   }
+
+   ul {
+    counter-reset: list;
+  }
+  ul > li {
+    list-style: none;
+  }
+  ul > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+  }
+
+  
+ 
