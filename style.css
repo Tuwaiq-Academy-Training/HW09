@@ -1,0 +1,53 @@
+.container{
+    position:relative ;
+    text-align: center;
+    color:rgb(228, 216, 216);
+
+}
+h1{
+    color:aliceblue;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family:Geneva;
+}
+
+p{
+    position: relative;
+    text-align: start;
+    font-size: 19px;
+    padding: 10px 371px 23px; 
+    color: gray;  
+}
+#ing{
+    color: gray;
+    padding: 000 350px;
+}
+
+.point{
+    padding: 000 350px;
+    color: gray; 
+    text-align: start;  
+}
+.recipe{
+    padding: 000 600px;  
+}
+.cooking{
+    padding: 000 600px;  
+}
+#dir{
+    color: gray;
+    padding: 000 350px;
+    /* right: 91px; */
+}
+.Diright{
+    width: 500px;
+    color: gray;
+    height: 200px;
+    padding: 20px o px 0 60 px;
+}
+
