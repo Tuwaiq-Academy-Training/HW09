@@ -1,0 +1,39 @@
+ul {
+    margin: 0;
+  }
+  ul.dashed {
+    list-style-type:none;
+  }
+  ul.dashed > li {
+    text-indent: -20px;
+  }
+  ul.dashed > li::before {
+    content: "-";
+    text-indent: -20px;
+  }
+ol>li::marker{
+    content:counter(list-item)")";
+}
+header{
+    background-image: url(soup.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    margin: auto; 
+    height: 650px;
+  }
+  .head{
+    padding-top: 350px;
+	color: white;
+	font-size:70px;
+	text-align: center;
+    font-family: Arial; 
+    font-weight: normal;
+  }
+  hr{
+    color: grey;
+  }
+  img {
+    background-size: 100% 100%;
+    margin-left: 650px;
+   }
