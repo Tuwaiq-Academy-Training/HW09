@@ -1,0 +1,58 @@
+body{ 
+
+  }
+  .img1{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    float: inline-start;
+    
+
+  }
+  .rinfo{
+   
+        display: block;
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+      
+  }
+  .first{
+      text-align: start;
+      font-size: larger;
+      font-size: x-large;
+      margin: 50px;
+
+    
+  }
+  .ing{
+      font-size: large;
+      margin-bottom: 0%;
+      padding: 50px;
+      list-style: square;
+
+  }
+  ul{
+      margin-top: 0%;
+      padding: 50px;
+      list-style-type: "-"
+   
+    
+  }
+  .cinfo{
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+
+  }
+
+  li::before{
+    content: ")"; /* Insert content that looks like bullets */
+    padding-right: 0px;
+   
+  }
+  
