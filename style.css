@@ -1,0 +1,36 @@
+img{
+width: 300px;
+height: 250px;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+ul {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+ }
+ul> li {
+    text-indent: -5px;
+}
+ul> li:before {
+    content: "-";
+    text-indent: -5px;
+}
+
+
