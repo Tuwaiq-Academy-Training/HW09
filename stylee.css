@@ -1,0 +1,39 @@
+header{
+  background-image: url(./images/soup.jpg);
+    background-repeat:no-repeat;
+    background-attachment:inherit;
+    background-size:contain;
+    text-align: center;
+    color: aliceblue;
+    width: 700px;
+    height: 15cm;
+    
+}
+header h1 {
+  
+  padding: 200px ;
+}
+p{
+  border-bottom: 5cm;
+}
+ul{
+  list-style-type: none;
+}
+ul li:before {
+  content: '-';
+  position: absolute;
+  margin-left: -20px;
+}
+ol{
+  list-style-type: none;
+  counter-increment: my-awesome-counter; 
+}
+ol li {
+  counter-increment: my-awesome-counter;
+}
+
+ol li:before {
+  content: counter(my-awesome-counter) ") ";
+  position: absolute;
+  margin-left: -20px;
+}
